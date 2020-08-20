@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
 
 body {
    margin: 0;
@@ -15,11 +17,12 @@ h1 {
 
 nav {
    width: 100%;
-   background-color: #500011;
+   background-color: #ff5c5c;
    position: fixed;
    top: 0;
    z-index: 100;
-   margin-bottom: 10;
+   margin-bottom: 0;
+   margin-top:o;
 }
 
 nav ul{
@@ -37,22 +40,19 @@ nav a{
 }
 
 nav a:hover{
-   color: aquamarine;
+   color: rgb(255, 255, 255);
 }
 
 #logoGen{
    width: 70px;
    height: 30px;
    margin-right: 800px;
-}
-
-#sobreGen{
-   margin-right: 100px;
    margin-left: 100px;
 }
 
+
 #bg-sobre{
-   background-color: #d4d4d4;
+   background-color: #ffffff;
    margin-top: 0;
    margin-bottom: 0;
 }
@@ -64,24 +64,55 @@ nav a:hover{
    align-items: center;
    margin-top: 0;
    margin-bottom: 0;
+   background-image: linear-gradient( rgb(255, 255, 255, 0.6), rgb(255, 255, 255, 0.6) ), url("https://i.pinimg.com/originals/b0/9d/23/b09d2321fa56fedef1a582556348935d.jpg");
+}
+
+#container-sobreGen-1{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 0;
+   margin-bottom: 0;
+   background-color: #d4ff5cba;
 }
 
 .text-center{
    text-align: center;
+   margin-top: 0;
+}
+
+.text-center-1{
+   margin-top:0;
+   margin-bottom:0;
+   text-align: center;
+   padding: 20px;
+   border-style: groove;
+   border-color: gray;
+}
+
+.text-center-2{
+   text-align: center;
+   margin-top: 50px;
+   margin-bottom:0;
 }
 
 #texto-sobreGen{
-   margin-right: 10px;
+   padding: 100px;
+
 }
 
 #video-sobreGen{
-   margin-left: 10px;
+   margin-right: 100px;
+   margin-top: 100px;
+   margin-bottom: 100px;
 }
 
 #img-react{
    margin-left: 30px;
    width: 400px;
    height: 280px;
+   margin-bottom:50px;
 }
 
 #container-sobreCurso{
@@ -90,6 +121,8 @@ nav a:hover{
    justify-content: space-around;
    align-items: center;
    margin-right: 220px;
+   margin-top: 0;
+   margin-bottom: 0;
 }
 
 #container-curriculo{
@@ -97,13 +130,30 @@ nav a:hover{
    flex-direction: row;
    justify-content: space-around;
    align-items: center;
+   margin-top: 100px;
+   margin-bottom: 100px;
 
 }
 
-#container-curriculo div{
+#container-curriculo-1{
    border-style: groove;
-   border-color: blue;
-   padding: 15px;
+   border-color: #227093;
+   padding: 100px;
+   background-color: #227093;
+}
+
+#container-curriculo-2{
+   border-style: groove;
+   border-color: #ff5252;
+   padding: 100px;
+   background-color: #ff5252;
+}
+
+#container-curriculo-3{
+   border-style: groove;
+   border-color: #ffb142;
+   padding: 100px;
+   background-color: #ffb142;
 }
 
 #container-curriculo ul{
@@ -111,10 +161,12 @@ nav a:hover{
    padding: 0;
 }
 
-#trabalho p{
+#trabalho {
+   margin-top: 0;
    text-align: justify;
-   margin-left: 200px;
-   margin-right: 200px;
+   background-color: rgb(255, 255, 255) ;
+   padding: 30px;
+   background-image: linear-gradient( rgb(255, 255, 255, 0.85), rgb(255, 255, 255, 0.85) ), url('https://assets.website-files.com/5934b5b7734b3f382d9fc8d2/5d487a17e260e379aa36e7a0_1*sFhnR85wabTyXIc9QORjrw.png');
 }
 
 #inscrever div.row{
@@ -131,8 +183,8 @@ nav a:hover{
 }
 
 #inscrever {
-   margin-right: 400px;
-   margin-left: 400px;
+   margin-right: 500px;
+   margin-left: 500px;
    margin-bottom: 50px;
 }
 
@@ -156,8 +208,35 @@ hr{
 }
 
 #img-node {
-   margin-left: 50px;
+   margin-left: 60px;
    width: 250px;
    height: 250px;
+   margin-bottom:50px;
 }
+
+#sobreCurso{
+   background-color: #ffffff;
+   margin-bottom: 10px;
+   margin-top:0;
+}
+
+#img-inicial{
+   padding:100px;
+}
+
+#texto-lateral-1 {
+   margin-left: 100px;
+   margin-right: 100px;
+   font-family: 'Architects Daughter', cursive;
+   font-size: 25px;
+
+}
+
+#text-center-final{
+   text-align: center;
+   padding: 50px;
+   margin-left: 100px;
+   margin-right: 100px;
+}
+
 
